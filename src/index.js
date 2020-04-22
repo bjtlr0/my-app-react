@@ -9,7 +9,7 @@ import * as serviceWorker from './serviceWorker';
 /** 
  * [StrictMode검사항목]
  * identifying components with unsafe lifecycles
- * 안전하지 않은 라이프사이클의 컴포넌츠 식별.
+ * 안전하지 않은 라이프사이클의 컴포넌츠 식별. => 안전하지 않은 생명주기 컴포넌트에 대해 로깅해준다.
  * warning about legacy string ref API usage
  * 레거시 문자열 레퍼런스 사용에 대한 경고.
  * warning about deprecated findDOMNode usage
