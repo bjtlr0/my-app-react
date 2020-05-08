@@ -42,6 +42,9 @@ class RegisterHeader extends Component {
         return(
             <div>
                 <Container style={style.h3}>
+                    {/**
+                     * number값을 받아서 뒤로가기 링크를 구현한다.
+                     */}
                     { number !== '4' && 
                         <Link to={prior}>
                             <Button Onclick={onClickHome} content='Back' icon='arrow alternate circle left outline' labelPosition='left'/>
@@ -52,6 +55,10 @@ class RegisterHeader extends Component {
                 </Container>
                 <Container style={style.base}>
                     <Step.Group fluid>
+                    {/**
+                     * 부모(상위 컴포넌트 : 페이지 컴포넌트)가 전달해 준 number 값에 따라서 Step UI가 변경된다. 
+                     * 
+                     */}
                         {   (number === '1' || number === undefined) ? 
                             ( <Step active icon='address card' title='Step 1 : ' description='Create personal account'/>) : 
                             ( <Step disabled icon='address card' title='Step 1 : ' description='Create personal account'/>)
