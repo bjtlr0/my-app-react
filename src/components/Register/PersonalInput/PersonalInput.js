@@ -2,6 +2,7 @@
 
 import React, { Component } from 'react';
 
+
 class PersonalInput extends Component {
     render(){
         return (
