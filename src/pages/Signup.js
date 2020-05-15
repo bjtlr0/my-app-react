@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import PersonalInput from '../components/Signup/PersonalInput';
+import { PersonalInput } from '../components/Register';
 import { DevelopInput } from '../components/Register';
 import { ExperienceInput } from '../components/Register';
 import { CompleteRegister } from '../components/Register';

@@ -2,6 +2,18 @@ import React, { Component } from 'react';
 import { Home, Signup } from './pages';
 import { Route, Switch } from 'react-router-dom';
 
+// 이런 클래스 컴포넌트 선언 방식은 ES6를 도입한 이후에 사용 가능하다.
+/** ES6가 도입되지 않은 경우 아래와 같이 선언한다.
+ * var someClass = createReactClass({
+ *  render : function(){
+ *    return <div>some html</div>
+ *  }
+ * 
+ * });
+ * 
+ * 
+ * 
+ */
 class App extends Component {
   render(){
     return (
